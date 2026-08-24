@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ad Hoc Bird Sensor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="summary">
+        <div>
+          <p class="eyebrow">SiWx917 sensor network</p>
+          <h1>Bird Activity Dashboard</h1>
+        </div>
+        <div class="status">
+          <span id="connection-dot"></span>
+          <span id="connection-label">Demo data</span>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Live sensor metrics">
+        <article>
+          <span>Species</span>
+          <strong id="species">No bird activity</strong>
+        </article>
+        <article>
+          <span>Confidence</span>
+          <strong id="confidence">95%</strong>
+        </article>
+        <article>
+          <span>Light</span>
+          <strong id="lux">0 lx</strong>
+        </article>
+        <article>
+          <span>Audio RMS</span>
+          <strong id="audio-rms">0</strong>
+        </article>
+      </section>
+
+      <section class="activity">
+        <h2>Recent Reports</h2>
+        <ol id="reports"></ol>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

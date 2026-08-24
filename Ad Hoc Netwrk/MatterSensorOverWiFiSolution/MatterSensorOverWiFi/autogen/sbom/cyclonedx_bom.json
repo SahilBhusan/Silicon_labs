@@ -1,0 +1,3094 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-07-06T06:09:01Z",
+    "authors" : [ {
+      "name" : "Silicon Laboratories, Inc."
+    } ],
+    "properties" : [ {
+      "name" : "Silicon Labs Disclaimer",
+      "value" : "TERMS OF USE - SILICON LABORATORIES INC.\n(With respect to Silicon Labs software components, this Software Bill of Materials (SBOM) is based upon Silicon Labs'\nreview and analysis of the code version when released.  It is provided \"AS IS\" and does not modify, change or alter\nthe terms or conditions of your use of Silicon Labs' software and/or SDKs based upon license terms and/or agreements\nassociated with this software or SDKs when distributed to you, received by you, or installed by you.  Further, no\nwarranties or obligations are created by this SBOM.  It is your obligation to comply with the terms of licenses\nreferenced in this SBOM.)"
+    } ]
+  },
+  "components" : [ {
+    "scope" : "required",
+    "type" : "library",
+    "bom-ref" : "silabs.matter:2.8.0",
+    "name" : "Silicon Labs Matter",
+    "version" : "2.8.0",
+    "supplier" : {
+      "name" : "Silicon Laboratories Inc."
+    },
+    "components" : [ {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:app_common",
+      "name" : "app_common",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter",
+      "name" : "Matter Core Components",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_access_control",
+      "name" : "Access Control Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_administrator_commissioning",
+      "name" : "Administrator Commissioning Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_basic_information",
+      "name" : "Basic Information Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_configuration_over_swo",
+      "name" : "Configuration Over SWO",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_crypto_tinycrypt_siwx917",
+      "name" : "Matter MbedTLS Integration",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_default_lcd_config",
+      "name" : "Matter Default LCD/Display Configuration",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_descriptor",
+      "name" : "Descriptor Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_ethernet_network_diagnostics",
+      "name" : "Ethernet Network Diagnostics Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_fixed_label",
+      "name" : "Fixed Label Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_general_commissioning",
+      "name" : "General Commissioning Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_general_diagnostics",
+      "name" : "General Diagnostics Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_group_key_mgmt",
+      "name" : "Group Key Management Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_groups",
+      "name" : "Groups Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_icd_core",
+      "name" : "ICD Server Configuration",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_icd_management",
+      "name" : "ICD Management Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_identify",
+      "name" : "Identify Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_leds",
+      "name" : "matter LED Support",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_localization_configuration",
+      "name" : "Localization Configuration Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_log_uart",
+      "name" : "Logging to UART",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_lwip",
+      "name" : "Matter LwIP",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_network_commissioning",
+      "name" : "Network Commissioning Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_occupancy_sensor",
+      "name" : "Occupancy Sensing Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_operational_credentials",
+      "name" : "Operational Credentials Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_ota_requestor",
+      "name" : "OTA Software Update Requestor Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_ota_support",
+      "name" : "OTA Requestor",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_platform_siwx917",
+      "name" : "Platform for SiWx917",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_power_source",
+      "name" : "Power Source Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_power_source_configuration",
+      "name" : "Power Source Configuration Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_provision_flash",
+      "name" : "Flash Attestation Certificate provisioning configuration",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_shell",
+      "name" : "Matter Shell",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_software_diagnostics",
+      "name" : "Software Diagnostics Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_time_format_localization",
+      "name" : "Time Format Localization Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_user_label",
+      "name" : "User Label Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_wifi",
+      "name" : "Matter WiFi",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_wifi_ble",
+      "name" : "Bluetooth Network Layer",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_wifi_network_diagnostics",
+      "name" : "Wi-Fi Network Diagnostics Server Cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:toolchain_gcc_common",
+      "name" : "Common Flash GCC Toolchain",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:address_policy",
+      "name" : "address_policy",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:address_resolve",
+      "name" : "address_resolve",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:callbacks",
+      "name" : "callbacks",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:codegen_data_model_sources",
+      "name" : "codegen_data_model_sources",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:core",
+      "name" : "core",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:data_model",
+      "name" : "data_model",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:data_model_provider",
+      "name" : "data_model_provider",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:default_policy",
+      "name" : "default_policy",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:dnssd_wifi",
+      "name" : "dnssd_wifi",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:encode_decode",
+      "name" : "encode_decode",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:error",
+      "name" : "error",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:interaction_model",
+      "name" : "interaction_model",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libaccess",
+      "name" : "libaccess",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libasn1",
+      "name" : "libasn1",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libbdx",
+      "name" : "libbdx",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libblelayer",
+      "name" : "libblelayer",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libchipappserver",
+      "name" : "libchipappserver",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libchipcore",
+      "name" : "libchipcore",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libchipcrypto",
+      "name" : "libchipcrypto",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libchipdatamodel",
+      "name" : "libchipdatamodel",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libchipprotocols",
+      "name" : "libchipprotocols",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libclusterobjects",
+      "name" : "libclusterobjects",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libcredentials",
+      "name" : "libcredentials",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libdevicelayer_wifi",
+      "name" : "libdevicelayer_wifi",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libinetlayer_wifi",
+      "name" : "libinetlayer_wifi",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libinteractionmodel",
+      "name" : "libinteractionmodel",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libmatterdeviceinfoproviderexample",
+      "name" : "libmatterdeviceinfoproviderexample",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libmessaginglayer",
+      "name" : "libmessaginglayer",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:librawtransport",
+      "name" : "librawtransport",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libsecurechannel",
+      "name" : "libsecurechannel",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libsecurechanneltypes",
+      "name" : "libsecurechanneltypes",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libsetuppayload",
+      "name" : "libsetuppayload",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libsupportlayer",
+      "name" : "libsupportlayer",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libsystemlayer",
+      "name" : "libsystemlayer",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:libtransportlayer",
+      "name" : "libtransportlayer",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_check_in_message",
+      "name" : "check_in_message",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_includes",
+      "name" : "Stack",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_minimal_mdns",
+      "name" : "Matter Minimal mDNS",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_nlassert",
+      "name" : "Stack",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_nlio",
+      "name" : "Stack",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_ot_mbedtls_override",
+      "name" : "OT mbedtls override",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_power_save_interface",
+      "name" : "Includes header file PowerSaveInterface.h",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_rgb_leds",
+      "name" : "matter LED Support",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_sleep_manager",
+      "name" : "Sleep Manager for Matter WiFi",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_static_generated_zap_content",
+      "name" : "Statically-generated ZAP content",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_syscall_stubs",
+      "name" : "Utility",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_tracing_headers",
+      "name" : "tracing",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_uart",
+      "name" : "Matter UART",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:matter_zap_include",
+      "name" : "Stack",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:memory",
+      "name" : "memory",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:messagedef",
+      "name" : "messagedef",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:naming",
+      "name" : "naming",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:records",
+      "name" : "records",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:responders",
+      "name" : "responders",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:server_cluster",
+      "name" : "server_cluster",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:siwx917",
+      "name" : "siwx917",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:siwx917_common",
+      "name" : "siwx917_common",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:text_only_logging",
+      "name" : "text_only_logging",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.matter:2.8.0:types",
+      "name" : "types",
+      "version" : "2.8.0",
+      "supplier" : {
+        "name" : "Silicon Laboratories Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ]
+    } ]
+  }, {
+    "scope" : "required",
+    "type" : "library",
+    "bom-ref" : "silabs.simplicity_sdk:2025.12.1",
+    "name" : "Simplicity SDK Suite",
+    "version" : "2025.12.1",
+    "supplier" : {
+      "name" : "Silicon Laboratories, Inc."
+    },
+    "components" : [ {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:cmsis_rtos2_init",
+      "name" : "CMSIS-RTOS2 Initialization",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "cmsis_rtos2_init:5.8.0",
+          "name" : "CMSIS_5",
+          "version" : "5.8.0",
+          "supplier" : {
+            "name" : "ARM-software"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://github.com/ARM-software/CMSIS_5"
+          } ],
+          "purl" : "pkg:github/ARM-software/CMSIS_5@5.8.0",
+          "pedigree" : {
+            "notes" : "The CMSIS is a set of tools, APIs, frameworks, and work flows"
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:freertos",
+      "name" : "FreeRTOS Kernel",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "freertos:11.1.0",
+          "name" : "FreeRTOS kernel",
+          "version" : "11.1.0",
+          "supplier" : {
+            "name" : "AWS open source"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://github.com/FreeRTOS/FreeRTOS-Kernel"
+          } ],
+          "purl" : "https://github.com/FreeRTOS/FreeRTOS-Kernel/releases/tag/V11.1.0",
+          "pedigree" : {
+            "notes" : "FreeRTOS kernel, Version 11.1.0"
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:segger_rtt",
+      "name" : "SEGGER RTT",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Segger"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_assert",
+      "name" : "Assert Functions",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:slist",
+      "name" : "Single Link List",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:atomic",
+      "name" : "Atomic Operations Library",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:bit",
+      "name" : "Bit Operations Library",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:cmsis_common",
+      "name" : "Common APIs for CMSIS-Compliant Kernels",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:cmsis_core",
+      "name" : "CMSIS-Core",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "cmsis_core:5.8.0",
+          "name" : "CMSIS_5",
+          "version" : "5.8.0",
+          "supplier" : {
+            "name" : "ARM-software"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://github.com/ARM-software/CMSIS_5"
+          } ],
+          "purl" : "pkg:github/ARM-software/CMSIS_5@5.8.0",
+          "pedigree" : {
+            "notes" : "The CMSIS is a set of tools, APIs, frameworks, and work flows"
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:cmsis_os2_ext_task_register",
+      "name" : "Task registers abstraction layer",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:cmsis_rtos2_headers",
+      "name" : "CMSIS-RTOS2 Headers",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "cmsis_rtos2_headers:5.8.0",
+          "name" : "CMSIS_5",
+          "version" : "5.8.0",
+          "supplier" : {
+            "name" : "ARM-software"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://github.com/ARM-software/CMSIS_5"
+          } ],
+          "purl" : "pkg:github/ARM-software/CMSIS_5@5.8.0",
+          "pedigree" : {
+            "notes" : "The CMSIS is a set of tools, APIs, frameworks, and work flows."
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:cmsis_rtos2_tick",
+      "name" : "CMSIS-RTOS2 OS Tick",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "cmsis_rtos2_tick:5.8.0",
+          "name" : "CMSIS_5",
+          "version" : "5.8.0",
+          "supplier" : {
+            "name" : "ARM-software"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://github.com/ARM-software/CMSIS_5"
+          } ],
+          "purl" : "pkg:github/ARM-software/CMSIS_5@5.8.0",
+          "pedigree" : {
+            "notes" : "The CMSIS is a set of tools, APIs, frameworks, and work flows"
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:code_classification",
+      "name" : "Code Classification",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:component_catalog",
+      "name" : "Component Catalog",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:cpp_support",
+      "name" : "Toolchain: C++ Support",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:ecode",
+      "name" : "EMDRV Common Headers",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:emlib_core",
+      "name" : "CORE",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:enum",
+      "name" : "Enumerations",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:event_handler",
+      "name" : "Event Handler",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:freertos_kernel_cortexm",
+      "name" : "FreeRTOS Kernel ARM Cortex-M Port",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Apache 2.0"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "freertos_kernel_cortexm:11.1.0",
+          "name" : "CMSIS-FreeRTOS",
+          "version" : "11.1.0",
+          "supplier" : {
+            "name" : "ARM-software"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://github.com/ARM-software/CMSIS-FreeRTOS"
+          } ],
+          "purl" : "https://github.com/ARM-software/CMSIS-FreeRTOS/releases/tag/v11.1.0",
+          "pedigree" : {
+            "notes" : "CMSIS-FreeRTOS, Version 11.1.0"
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:iostream",
+      "name" : "IO Stream",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:iostream_rtt",
+      "name" : "IO Stream: RTT",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:mbedtls_config",
+      "name" : "Configuration",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:mbedtls_slcrypto",
+      "name" : "Silicon Labs Mbed TLS support",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:mbedtls_slcrypto_driver",
+      "name" : "Drivers for Silicon Labs Crypto Acceleration",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:mbedtls_threading_alt_cmsis_rtos2",
+      "name" : "Silicon Labs Threading support Mbed TLS",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:mem_pool",
+      "name" : "Memory Pool",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:memory_manager_pool",
+      "name" : "Memory Manager Memory Pool",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:memory_manager_redirect",
+      "name" : "Memory Manager Redirect",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:nvm3_default",
+      "name" : "NVM3 Default Instance",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:nvm3_default_config",
+      "name" : "NVM3 Default Config",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:nvm3_default_flash_backend",
+      "name" : "NVM3 back-end for default instance in flash",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:nvm3_source",
+      "name" : "NVM3 Core (source)",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:psa_crypto",
+      "name" : "PSA Crypto",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:psa_crypto_common",
+      "name" : "PSA Crypto Common",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:psa_crypto_config",
+      "name" : "Configuration",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:psa_crypto_trng",
+      "name" : "TRNG",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:psa_driver",
+      "name" : "Drivers for Crypto Acceleration",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:psa_driver_common",
+      "name" : "PSA Driver Common Source Code",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_common",
+      "name" : "Common Functions",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_core",
+      "name" : "core",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_main",
+      "name" : "System Setup (sl_main)",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_main_init",
+      "name" : "sl main Init",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_main_kernel",
+      "name" : "SL Main Kernel",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_main_memory_init",
+      "name" : "sl_main Setup",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_main_process_action",
+      "name" : "sl_main Process Action",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sl_string",
+      "name" : "String Functions",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sleeptimer",
+      "name" : "Sleep Timer",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:sli_psec_osal",
+      "name" : "OS Abstraction Layer",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:status",
+      "name" : "Status Codes Definitions",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:toolchain_variant_arm",
+      "name" : "Toolchain for ARM",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.simplicity_sdk:2025.12.1:trustzone_unaware",
+      "name" : "TrustZone Unaware",
+      "version" : "2025.12.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    } ]
+  }, {
+    "scope" : "required",
+    "type" : "library",
+    "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0",
+    "name" : "Wiseconnect",
+    "version" : "4.0.0",
+    "components" : [ {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:SIWG917M111MGTBA",
+      "name" : "SIWG917M111MGTBA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:basic_network_config_manager",
+      "name" : "Basic Network Configuration Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:ble",
+      "name" : "BLE",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:brd2605a",
+      "name" : "BRD2605A",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:si91x_mem_config_3",
+      "name" : "MEMORY_MCU_ADVANCED_WIRELESS_BASIC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_basic_buffers",
+      "name" : "Basic Buffer Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_button_917",
+      "name" : "Button",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_common_flash_nvm3",
+      "name" : "NVM3 Common Flash",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_led_917",
+      "name" : "LED",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_mcu",
+      "name" : "Si91x MCU Subsystem",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_soc_soft_reset",
+      "name" : "Soft Reset",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_wireless",
+      "name" : "Si91x Wireless Subsystem",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:ulp_timers_instance",
+      "name" : "ULP Timer",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:wifi",
+      "name" : "Wi-Fi",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:wifi_resources",
+      "name" : "WiSeConnect Resources",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:wiseconnect_common",
+      "name" : "WiSeConnect Common Library",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:basic_credential_manager",
+      "name" : "Basic Credential Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:board_configuration_headers",
+      "name" : "Board Configuration Header Files",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:brd2605a_config",
+      "name" : "brd2605a config",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:cmsis_common_driver",
+      "name" : "CMSIS COMMON DRIVER",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:cmsis_driver_headers",
+      "name" : "CMSIS Driver Header Files",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Apache-2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:cmsis_peripheral_headers",
+      "name" : "CMSIS Peripheral Header Files",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA AND Apache-2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:cmsis_udma",
+      "name" : "CMSIS UDMA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA AND Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:cmsis_usart",
+      "name" : "CMSIS USART",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Apache-2.0 AND Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:cmsis_usart_driver",
+      "name" : "CMSIS USART DRIVER",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:external_flash_none",
+      "name" : "No External Flash",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:external_psram_8mb",
+      "name" : "8MB PSRAM (External)",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:freertos_config",
+      "name" : "SL SI91X FreeRTOS Configuration",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MIT"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:gpio_npss_component",
+      "name" : "PM UULP GPIO",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:malloc_thread_safety",
+      "name" : "Malloc thread safety",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:netstack_silabs_lwip_api",
+      "name" : "LightWeight IP (LWIP) API",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "BSD-3-Clause"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "netstack_silabs_lwip_api:2.2.1",
+          "name" : "lwip",
+          "version" : "2.2.1",
+          "supplier" : {
+            "name" : "lwIP Developers"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://savannah.nongnu.org/projects/lwip/"
+          } ],
+          "purl" : "https://github.com/lwip-tcpip/lwip/",
+          "pedigree" : {
+            "notes" : "lwIP is a small independent implementation of the TCP/IP protocol suite."
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:netstack_silabs_lwip_core",
+      "name" : "LightWeight IP (LWIP) core stack",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "BSD-3-Clause"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "netstack_silabs_lwip_core:2.2.1",
+          "name" : "lwip",
+          "version" : "2.2.1",
+          "supplier" : {
+            "name" : "lwIP Developers"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://savannah.nongnu.org/projects/lwip/"
+          } ],
+          "purl" : "https://github.com/lwip-tcpip/lwip/",
+          "pedigree" : {
+            "notes" : "lwIP is a small independent implementation of the TCP/IP protocol suite."
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:netstack_silabs_lwip_netif_ethernet",
+      "name" : "LWIP generic network interface device drivers for ethernet",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "BSD-3-Clause"
+      } ],
+      "pedigree" : {
+        "ancestors" : [ {
+          "scope" : "required",
+          "type" : "library",
+          "bom-ref" : "netstack_silabs_lwip_netif_ethernet:2.2.1",
+          "name" : "lwip",
+          "version" : "2.2.1",
+          "supplier" : {
+            "name" : "lwIP Developers"
+          },
+          "externalReferences" : [ {
+            "type" : "website",
+            "url" : "https://savannah.nongnu.org/projects/lwip/"
+          } ],
+          "purl" : "https://github.com/lwip-tcpip/lwip/",
+          "pedigree" : {
+            "notes" : "lwIP is a small independent implementation of the TCP/IP protocol suite."
+          }
+        } ]
+      }
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:network_manager",
+      "name" : "Network Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib AND Apache-2.0"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:opn_config",
+      "name" : "opn config",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:power_manager_config",
+      "name" : "Power Manager Configuration",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_clks",
+      "name" : "ROM DRIVER CLOCK",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_crc",
+      "name" : "ROM DRIVER CRC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_egpio",
+      "name" : "ROM DRIVER EGPIO",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_headers",
+      "name" : "ROM Driver Headers",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_packing",
+      "name" : "ROM DRIVER PACKING",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_power_save",
+      "name" : "ROM DRIVER POWER SAVE",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_romtable",
+      "name" : "ROM TABLE",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_romtable_headers",
+      "name" : "ROM Table Header",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_timer",
+      "name" : "ROM DRIVER TIMER",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_udma",
+      "name" : "ROM DRIVER UDMA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_udma_wrapper",
+      "name" : "ROM DRIVER UDMA WRAPPER",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:romdriver_ulpss",
+      "name" : "ROM DRIVER ULPSS",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_adc",
+      "name" : "ADC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_aux_reference_volt_config",
+      "name" : "AUX REFERENCE VOLT",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_board",
+      "name" : "Si91x SoC Board Configurations",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA AND Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_chip",
+      "name" : "Core",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_clock_update",
+      "name" : "CLOCK UPDATE",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_crc",
+      "name" : "CRC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_dac",
+      "name" : "DAC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_egpio",
+      "name" : "EGPIO",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_headers",
+      "name" : "RSI Peripheral Headers",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_opamp",
+      "name" : "OPAMP",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_sysrtc",
+      "name" : "SYSRTC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_timers",
+      "name" : "TIMERS API",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_udma",
+      "name" : "UDMA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_udma_wrapper",
+      "name" : "UDMA WRAPPER",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_usart",
+      "name" : "USART",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:rsilib_userconfig",
+      "name" : "RSI User Configuration",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:si91x_common_flash",
+      "name" : "Common Flash Component",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:si91x_debug",
+      "name" : "Debug Unit",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:si91x_device_init_nvic",
+      "name" : "NVIC Interrupt Priorities Configuration for FreeRTOS",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:si91x_log_none",
+      "name" : "Si91x Log None",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:si91x_stack_size_configuration",
+      "name" : "SiW91x Stack Size Configuration",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:si91x_tickless_mode",
+      "name" : "SI91X TICK-LESS MODE",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_adc",
+      "name" : "ADC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_bjt_temperature_sensor",
+      "name" : "BJT Temperature Sensor",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_clock_manager",
+      "name" : "Clock Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_dma",
+      "name" : "DMA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_gpio",
+      "name" : "GPIO",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_gpio_peripheral",
+      "name" : "SL GPIO Peripheral",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_power_manager",
+      "name" : "Power Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_ccm",
+      "name" : "CCM",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_crypto",
+      "name" : "Crypto - Common",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_ecdh",
+      "name" : "ECDH",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_ecdsa",
+      "name" : "ECDSA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_fwup",
+      "name" : "Firmware Upgrade (Si91x)",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_hmac",
+      "name" : "HMAC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_lwip_stack",
+      "name" : "LwIP Network Stack (Hosted)",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_memory_manager",
+      "name" : "Si91x Memory Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_nvm3",
+      "name" : "NVM3 for Si91x",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_aead",
+      "name" : "PSA AEAD",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_crypto",
+      "name" : "PSA Crypto - Utility",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_ecdh",
+      "name" : "PSA ECDH",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_ecdsa",
+      "name" : "PSA ECDSA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_mac",
+      "name" : "PSA MAC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_sha",
+      "name" : "PSA SHA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_trng",
+      "name" : "PSA TRNG",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_psa_wrap",
+      "name" : "PSA WRAP",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_sha",
+      "name" : "SHA",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_trng",
+      "name" : "TRNG",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_si91x_wrap",
+      "name" : "WRAP",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sl_ulp_timer",
+      "name" : "ULP Timer",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sleeptimer_si91x",
+      "name" : "Sleep Timer for Si91x",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sli_buffer_manager",
+      "name" : "sli Buffer Manager",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sli_si91x_wifi_event_handler",
+      "name" : "si91x WiFi handler",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sli_wifi",
+      "name" : "SLI Wi-Fi",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sli_wifi_command_engine",
+      "name" : "WiFi Command Engine",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:sllib_m4_power_save",
+      "name" : "Si91x Cortex-M4 Powersave",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_bod",
+      "name" : "BOD",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_headers",
+      "name" : "System-Level API Headers",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_ipmu",
+      "name" : "IPMU",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_pll",
+      "name" : "PLL",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_power_save",
+      "name" : "POWER SAVE",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_reg_spi",
+      "name" : "REG SPI",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_rtc",
+      "name" : "RTC",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_temp_sensor",
+      "name" : "TEMPERATURE SENSOR",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_time_period",
+      "name" : "TIME PERIOD",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_ulpss_clk",
+      "name" : "ULPSS CLOCK",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:systemlevel_wwdt",
+      "name" : "WWDT",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:udma_linker_config",
+      "name" : "UDMA Linker Configuration",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:wakeup_source_config",
+      "name" : "PM Wakeup Source Configuration",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:wiseconnect_toolchain_gcc_standard",
+      "name" : "GCC Toolchain Standard Linker",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "silabs.wiseconnect3_sdk:4.0.0:wiseconnect_toolchain_plugin",
+      "name" : "GCC Toolchain Support",
+      "version" : "4.0.0",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    } ]
+  } ]
+}

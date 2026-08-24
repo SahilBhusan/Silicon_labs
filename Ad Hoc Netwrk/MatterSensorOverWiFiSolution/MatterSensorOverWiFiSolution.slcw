@@ -1,0 +1,10 @@
+---
+workspace_name: "MatterSensorOverWiFiSolution"
+label: "multi-sensor-app-siwx"
+quality: "production"
+package: "matter"
+description: "Solution for a Matter over WiFI Multi-Sensor App Example"
+project:
+- id: "application"
+  path: "MatterSensorOverWiFi\\MatterSensorOverWiFi.slcp"
+  output: "MatterSensorOverWiFi"
